@@ -1,0 +1,17 @@
+Graph Neural Networking Challenge 2021: Creating a Scalable Network Digital Twin
+GAIN team solution run instructions
+
+PREPARATORY TASKS
+--------------------------
+1. Install packages from requirements.txt with command: pip install -r requirements.txt
+
+TRAINING 
+--------------------------
+1. Run command: python3 main.py
+2. Model will be saved to the folder specified in config.ini
+
+EVALUATION 
+--------------------------
+1. Model is restored from the folder specified in config_submission.ini
+1. Run command: python3 generate_submission.py
+2. a .txt and a .zip file are generated for upload to the evaluation website
